@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ .critical {
+    --primary: #e53935;
+    --primary-hover: #d32f2f;
+  }
