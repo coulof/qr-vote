@@ -1,0 +1,15 @@
+<div class="grid" id="<%= dom_id answer %>">
+  <div>
+    <strong>Name:</strong>
+    <%= answer.name %>
+  </div>
+
+  <div>
+    <strong>Count:</strong>
+    <%= answer.count %>
+  </div>
+  <div>
+  <%# TODO How to link to the correct vote ? %>
+    <%= button_to "Vote!", method: :put %>
+  </div>
+</div>

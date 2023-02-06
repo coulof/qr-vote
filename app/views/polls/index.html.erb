@@ -1,0 +1,13 @@
+<p style="color: green"><%= notice %></p>
+
+<article class="container">
+  <h1>Questions</h1>
+  <div class="container" id="polls">
+    <% @polls.each do |poll| %>
+      <%= render poll %>
+    <% end %>
+  </div>
+  <footer>
+    <%= link_to "New poll", new_poll_path %>
+  </footer>
+</article>
